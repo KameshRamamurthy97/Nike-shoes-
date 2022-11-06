@@ -1,0 +1,95 @@
+body{
+    background-image: url(blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1500px;
+    padding:20px;
+   font-weight: bolder;
+   font-size: 20px;
+   color: black;
+    
+}
+
+h1{
+    text-align: center;
+    text-shadow: 3px 3px 3px grey;
+}
+
+div{
+    text-align: center; 
+    border: 5px black solid;
+    background-color: rgba(0, 201, 252, 0.856);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(77, 75, 75);
+    
+}
+
+img{
+    border: 6px white solid;
+    text-align: center;
+    
+}
+
+nav{
+    
+    padding: 20px;
+    text-align:center;
+    
+    
+
+
+}
+
+nav a{
+    color: black;
+    
+    padding: 5px;
+    text-align: center;
+    
+}
+
+nav a:hover{
+    color: white;
+}
+
+form{
+    border: 4px solid;
+    border-radius: 100px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 5px 5px 5px 5px rgb(77, 75, 75);
+    
+}
+
+input:hover{
+    background-color: rgb(241, 241, 241);
+
+}
+
+input[type="submit"]{
+    background-color: green;
+    width: 1200px;
+    height: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #55ee50;
+    transform: scale(1.02) translateY(-2px);
+    box-shadow: 3px 3px 6px #38373785;
+}
+
+textarea:hover{
+    background-color: rgb(241, 241, 241);
+}
+
+/* textarea{
+    width: 1200px;
+    background-color: rgb(rgba(5, 4, 4, 0.815)
+} */
+
+

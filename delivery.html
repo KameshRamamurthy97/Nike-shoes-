@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/delivery.css">
+   
+    <title>Document</title>
+</head>
+<body>
+   
+        
+        
+        
+        <form action="get">
+            <h1>Home Delivery Details</h1>
+            <hr>
+            
+            
+             <p>Customer name:<input type="text" class="name" required></p>
+    
+            
+    
+             <p>Male:<input type="radio" class="gender" id="gender" name="gender" required> 
+                Female:<input type="radio" class="gender" id="gender" name="gender" required>
+              Others:<input type="radio" class="gender" id="gender" name="gender" required></p>
+    
+               <p>Date of Birth:<input type="date" class="dateofbirth" required></p>
+    
+           
+    
+           
+    
+           
+    
+            <p>Phone number:<input type="text" class="phone" required></p>
+            <p>Alternative Phone number:<input type="text" class="phone" required></p>
+            <p>Address: <textarea name="address" id="address" cols="100" rows="5" required></textarea></p>
+            <p>Pin Code : <input type="text" class="pin" required></p>
+            
+            <form name="form1" id="form1" action="/action_page.php">
+                Product: <select name="subject" id="subject">
+                    <option value="" selected="selected">Select subject</option>
+                  </select>
+                  <br><br>
+                Brand or Other <select name="topic" id="topic">
+                    <option value="" selected="selected">Please select subject first</option>
+                  </select>
+                  <br><br>
+                Model: <select name="chapter" id="chapter">
+                    <option value="" selected="selected">Please select topic first</option>
+                  </select>
+                  <br><br>
+                </form>
+                <div class="col-2">
+                    <div class="input-group">
+                       
+                        <label for="myCheck1">Confirm your Order:</label> 
+                        <input type="checkbox" id="myCheck1" onclick="myFunction()">.
+                   
+                    </div>
+                </div>
+                
+            <!-- <div class="p-t-15">
+             <a href="index.html"> <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button></a>  
+            </div> -->
+        </form>
+    
+            <input type="submit" value="Submit">
+            
+        </form>
+        
+<script src="js/stat.js"></script>
+</body>
+</html>
